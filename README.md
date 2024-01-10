@@ -1,3 +1,4 @@
+![COVID-19 Tracker - UI Banner](https://raw.githubusercontent.com/ckkashi/Covid-19-Tracker/master/UI%20Banner.png)  
 # COVID-19 Tracker App 🌐📊
 
 Welcome to the COVID-19 Tracker App, a cross-platform Flutter application that provides real-time statistics on the global pandemic. Stay informed and up-to-date with the latest figures related to COVID-19 cases, deaths, and recoveries.
