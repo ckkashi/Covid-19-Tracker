@@ -1,4 +1,3 @@
-![COVID-19 Tracker - UI Banner](https://raw.githubusercontent.com/ckkashi/Covid-19-Tracker/master/UI%20Banner.png)  
 # COVID-19 Tracker App 🌐📊
 
 Welcome to the COVID-19 Tracker App, a cross-platform Flutter application that provides real-time statistics on the global pandemic. Stay informed and up-to-date with the latest figures related to COVID-19 cases, deaths, and recoveries.
@@ -17,7 +16,13 @@ Welcome to the COVID-19 Tracker App, a cross-platform Flutter application that p
 
 - **Internet Connectivity:** Integrates the `connectivity_plus` package to check device internet resources and provide a reliable connection to fetch the latest data.
 
+## Screens 📱
+![COVID-19 Tracker - UI Banner](https://raw.githubusercontent.com/ckkashi/Covid-19-Tracker/master/UI%20Banner.png)
+
 ## Acknowledgments 🙌
 Thanks to the disease.sh API for providing reliable and up-to-date COVID-19 data.
 Special shoutout to the Flutter community and the contributors behind the packages used in this project!
 Happy coding! Stay safe! 🌍❤️
+  
+
+
