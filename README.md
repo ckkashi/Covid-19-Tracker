@@ -8,6 +8,8 @@ Welcome to the COVID-19 Tracker App, a cross-platform Flutter application that p
 
 - **Interactive Charts:** Utilizes the `pie_chart` package to create visually appealing charts depicting the rates of deaths, recoveries, and active cases.
 
+- **Splash Screen Animation:** Features a captivating splash screen animation powered by the [Rive package](https://pub.dev/packages/rive).
+
 - **State Management:** Powered by the `GetX` package for efficient state management, ensuring a smooth and responsive user experience.
 
 - **Loading Effects:** Enhances user experience with loading effects powered by the `flutter_spinkit` package.
