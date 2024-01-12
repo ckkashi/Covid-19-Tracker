@@ -8,7 +8,6 @@ class CheckConnectivityController extends GetxController {
   @override
   Future<void> onInit() async {
     checkConnection();
-    print("on init running of check connectivity");
     super.onInit();
   }
 
@@ -16,7 +15,6 @@ class CheckConnectivityController extends GetxController {
     Get.delete<WorldStatsCotroller>();
     Get.delete<CountryStatsController>();
     bool result = await ConnectivityServices().checkConnectivity();
-    print({"check connection": result});
     if (result) {
       Get.offAndToNamed(HomeView.id);
     }

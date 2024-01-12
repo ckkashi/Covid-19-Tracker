@@ -6,6 +6,7 @@ import 'package:tracker_covid_19/views/CheckConnectivityView.dart';
 import 'package:tracker_covid_19/views/CountryView.dart';
 import 'package:tracker_covid_19/views/HomeView.dart';
 import 'package:sizer/sizer.dart';
+import 'package:tracker_covid_19/views/SplashView.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,8 +33,9 @@ class MyApp extends StatelessWidget {
               centerTitle: true,
               backgroundColor: AppColor.secondaryWhite),
         ),
-        initialRoute: CheckConnectivityView.id,
+        initialRoute: SplashView.id,
         routes: {
+          SplashView.id: (context) => const SplashView(),
           CheckConnectivityView.id: (context) => CheckConnectivityView(),
           HomeView.id: (context) => const HomeView(),
           CountryView.id: (context) => CountryView(),
